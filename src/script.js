@@ -186,7 +186,7 @@ let activeAction = null;
 // GLTFLoader를 사용하여 캐릭터 로드
 const loader = new GLTFLoader();
 loader.load(
-    './assets/stickman/scene.gltf', // GLTF 파일 경로
+    '/assets/stickman/scene.gltf', // GLTF 파일 경로
     function (gltf) {
         stickman = gltf.scene;
         stickman.position.set(0, 0, 0);
@@ -214,7 +214,7 @@ loader.load(
 );
 
 loader.load(
-    './assets/lowpoly_tree/tree.gltf', // Tree 파일 경로
+    '/assets/lowpoly_tree/tree.gltf', // Tree 파일 경로
     function (gltf) {
         const tree = gltf.scene;
         tree.position.set(8, 0, 5); // 5, 0, 5 위치에 배치
@@ -229,7 +229,7 @@ loader.load(
     }
 );
 loader.load(
-    './assets/lowpoly_tree/tree.gltf', // Tree 파일 경로
+    '/assets/lowpoly_tree/tree.gltf', // Tree 파일 경로
     function (gltf) {
         const tree = gltf.scene;
         tree.position.set(8, 0, -5); // 5, 0, 5 위치에 배치
@@ -244,7 +244,7 @@ loader.load(
     }
 );
 loader.load(
-    './assets/lowpoly_tree/tree.gltf', // Tree 파일 경로
+    '/assets/lowpoly_tree/tree.gltf', // Tree 파일 경로
     function (gltf) {
         const tree = gltf.scene;
         tree.position.set(-8, 0, -8); // 5, 0, 5 위치에 배치
@@ -259,7 +259,7 @@ loader.load(
     }
 );
 loader.load(
-    './assets/lowpoly_tree/tree.gltf', // Tree 파일 경로
+    '/assets/lowpoly_tree/tree.gltf', // Tree 파일 경로
     function (gltf) {
         const tree = gltf.scene;
         tree.position.set(-9, 0, 10); // 5, 0, 5 위치에 배치
