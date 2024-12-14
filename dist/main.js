@@ -10,7 +10,7 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/script.js":
+/***/ "/src/script.js":
 /*!***********************!*\
   !*** ./src/script.js ***!
   \***********************/
